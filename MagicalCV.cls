@@ -2,7 +2,7 @@
 %                                Declaration
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ProvidesClass{themagicaltemplate}[2022/05/31 CV class]
+\ProvidesClass{MagicalCV}[2022/05/31 CV class]
 \NeedsTeXFormat{LaTeX2e}
 \DeclareOption{print}{\def\@cv@print{}}
 \DeclareOption*{

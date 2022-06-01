@@ -56,12 +56,8 @@
 \RequirePackage{parskip}
 % Web-related icons
 \RequirePackage{fontawesome}
-% Set specific colors
-\RequirePackage{xcolor}
 % Graphic elements in latex
 \RequirePackage{tikz}
-% Enumerate, itemize
-\RequirePackage{enumitem}
 % Adding images and stuff
 \RequirePackage{graphicx}
 % for Some other commands
@@ -106,6 +102,12 @@
 %                        Configuration for colors
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+% Fix Bug
+\definecolor{date}{rgb}{0.345,0.345,0.345}
+\definecolor{headings}{rgb}{0.345,0.345,0.345}
+\definecolor{subheadings}{rgb}{0.345,0.345,0.345}
+\definecolor{primary}{rgb}{128,128,128}
 % Gray-scale colors
 \definecolor{white}{HTML}{FFFFFF}
 \definecolor{black}{HTML}{000000}

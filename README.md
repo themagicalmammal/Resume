@@ -1,15 +1,17 @@
-## Info
-The Magical Template is LaTeX template for a Resumes' inspired by many existing resumes'. It is made to be beautiful and also is compact to fit in as much data as you can.
-
-## Preview
-![Resume](https://raw.githubusercontent.com/themagicalmammal/themagicaltemplate/main/examples/themagicaltemplate.jpg)
-
-## References
-1. [Deedy-Resume](https://github.com/deedy/Deedy-Resume)
-2. [Awesome-CV](https://github.com/posquit0/Awesome-CV)
-3. [AltaCV](https://github.com/liantze/AltaCV)
-
-## Credit
-1. [Debarghya Das](https://github.com/deedy)
-2. [Byungjin Park](https://github.com/posquit0)
-3. [liantze](https://github.com/liantze)
+<div align="center">
+  <img src="logo.png" width="600" />
+  
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=5066A8&text=Information&height=150&fontSize=60" width="500" /> <br />
+  MagicalCV is LaTeX template for a Resumes' inspired by many existing resumes'. It is made to be beautiful & also is compact to fit in as much data as you can.
+  
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=5066A8&text=Preview&height=150&fontSize=60" width="500" /> <br />
+  <img src="examples/MagicalCV.jpg" width="500" />
+  
+  
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=5066A8&text=References&height=150&fontSize=60" width="500" /> <br />
+  [Deedy-Resume](https://github.com/deedy/Deedy-Resume) • [Awesome-CV](https://github.com/posquit0/Awesome-CV) • [AltaCV](https://github.com/liantze/AltaCV)
+  
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=5066A8&text=Credits&height=150&fontSize=60" width="500" /> <br />
+  [Debarghya Das](https://github.com/deedy) • [Byungjin Park](https://github.com/posquit0) • [liantze](https://github.com/liantze)
+  
+</div>

@@ -2,7 +2,7 @@
   <img src="logo.png" width="600" />
   
   <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=5066A8&text=Information&height=150&fontSize=60" width="500" /> <br />
-  MagicalCV is LaTeX template for a Resumes' inspired by many existing resumes'. It is made to be beautiful & also is compact to fit in as much data as you can.
+  MagicalCV is a LaTeX template for a resume, inspired by many existing resumes'. It is made to be beautiful & also is compact to fit in as much data as you can.
   
   <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=5066A8&text=Preview&height=150&fontSize=60" width="500" /> <br />
   <img src="examples/MagicalCV.jpg" width="500" />

@@ -10,6 +10,9 @@
   <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=5066A8&text=Contribute&height=150&fontSize=60" width="500" /> <br />
   Do you want to contribute to this? Please do so. I am happy to add changes, improvements, and bug fixes to this repo.
   
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=48ac3c&text=Óverleaf&height=150&fontSize=60" width="500" /> <br />
+  You can edit this [here](https://www.overleaf.com/latex/templates/magicalcv/ybfgdrchrrxj).
+  
   <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=5066A8&text=References&height=150&fontSize=60" width="500" /> <br />
   [Deedy-Resume](https://github.com/deedy/Deedy-Resume) • [Awesome-CV](https://github.com/posquit0/Awesome-CV) • [AltaCV](https://github.com/liantze/AltaCV)
   

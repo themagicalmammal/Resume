@@ -26,41 +26,45 @@
 %-------------------------------------------------------------------------------
 %                3rd party packages
 %-------------------------------------------------------------------------------
-% Needed to make fixed length table
+% make fixed length table
 \RequirePackage{array}
-% Needed to handle list environment
+% Make PDF files searchable and copyable
+\RequirePackage{cmap}
+% Needed as a extension of cmap
+\RequirePackage{mmap}
+% handle list environment
 \RequirePackage{enumitem}
-% Needed to handle text alignment
+% handle text alignment
 \RequirePackage{ragged2e}
-% Needed to configure page layout
+% configure page layout
 \RequirePackage{geometry}
-% Needed to make header & footer effeciently
+% make header & footer effeciently
 \RequirePackage{fancyhdr}
-% Needed to manage colors
+% manage colors
 \RequirePackage{xcolor}
-% Needed to use \ifxetex-\else-\fi statement
+% use \ifxetex-\else-\fi statement
 \RequirePackage{ifxetex}
-% Needed to use \if-\then-\else statement
+% use \if-\then-\else statement
 \RequirePackage{xifthen}
-% Needed to use a toolbox of programming tools
+% use a toolbox of programming tools
 \RequirePackage{etoolbox}
-% Needed to change line spacing in specific environment
+% change line spacing in specific environment
 \RequirePackage{setspace}
-% Needed to manage fonts
+% manage fonts
 \RequirePackage[quiet]{fontspec}
 % To support LaTeX quoting style
 \defaultfontfeatures{Ligatures=TeX}
-% Needed to manage math fonts
+% manage math fonts
 \RequirePackage{unicode-math}
-% Needed to use icons from font-awesome
+% use icons from font-awesome
 \RequirePackage{fontawesome5}
 \RequirePackage{roboto}
 \RequirePackage[default,opentype]{sourcesanspro}
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
-% Needed to deal a paragraphs
+% deal a paragraphs
 \RequirePackage{parskip}
-% Needed to deal hyperlink
+% deal hyperlink
 \RequirePackage[hidelinks,unicode,pdfpagelabels=false]{hyperref}
 \hypersetup{%
   pdftitle={},

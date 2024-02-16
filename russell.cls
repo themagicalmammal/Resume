@@ -28,10 +28,6 @@
 %-------------------------------------------------------------------------------
 % make fixed length table
 \RequirePackage{array}
-% Make PDF files searchable and copyable
-\RequirePackage{cmap}
-% Needed as a extension of cmap
-\RequirePackage{mmap}
 % handle list environment
 \RequirePackage{enumitem}
 % handle text alignment

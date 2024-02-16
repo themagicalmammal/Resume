@@ -695,6 +695,13 @@
   \skilltypestyle{#1} & \skillsetstyle{#2} \\
 }
 
+\newcommand*{\cvskilltop}[2]{%
+  \begin{minipage}[t]{\linewidth}
+    \textbf{#1} \\ #2
+  \end{minipage}
+  \\
+}
+
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
   \vspace{-4.0mm}

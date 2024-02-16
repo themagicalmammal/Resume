@@ -805,7 +805,7 @@
    \newblock%
    {%
      \fontsize{8pt}{1em}\bodyfontlight\color{graytext}%
-     \usebibmacro{journal+issuetitle}%
+     \usebibmacro{journal}%
      \setunit{\space}%
      \printfield{pages}%
      \newunit%

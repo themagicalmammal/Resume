@@ -1,0 +1,29 @@
+%-------------------------------------------------------------------------------
+%	PROJECTS SECTION TEMPLATE
+%-------------------------------------------------------------------------------
+% University Projects reuse the shared \cventry construct (organisation, title,
+% location, date + a cvitems block). This file adds a lighter, project-oriented
+% heading for entries that are just a title, a year, and an optional link.
+
+% \cvproject{<title>}{<year>}{<url>}
+% A project heading: the title on the left with the year on the right, in
+% \cventry's title style. When <url> is given the link sits next to the title
+% (not baked into the title text). Follow with a cvitems block for the project's
+% description. Leave <url> empty ({}) for a project with no link.
+\newcommand*{\cvproject}[3]{%
+  \vspace{2mm}
+  {%
+    \setlength\tabcolsep{0pt}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+      % Title, then the link (when present) alongside it. \StrBehind drops the
+      % URL scheme for a cleaner display; \detokenize makes special characters
+      % (e.g. the _ in a repo name) print literally, while the href still points
+      % at the full URL.
+      \entrytitlestyle{#1}%
+      \ifthenelse{\equal{#3}{}}{}{%
+        \StrBehind{#3}{//}[\cvprojectlink]%
+        \quad\projectlinkstyle{\faLink~\href{#3}{\expandafter\detokenize\expandafter{\cvprojectlink}}}%
+      } & \entrydatestyle{#2} \\
+    \end{tabular*}%
+  }%
+}

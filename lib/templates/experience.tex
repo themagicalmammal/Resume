@@ -1,0 +1,24 @@
+%-------------------------------------------------------------------------------
+%	EXPERIENCE SECTION TEMPLATE
+%-------------------------------------------------------------------------------
+% The shared entry constructs (\cventry, the cvitems environment, \cvsection)
+% live in lib/commands/structure.tex, since Education and University Projects
+% reuse them too. This file holds the Experience-specific building blocks.
+
+% \cvrole{<position>}{<date>}
+% An additional role heading within a \cventry, for multiple roles at the same
+% company. Renders the position/date row in \cventry's style; follow it with a
+% cvitems block for that role's bullets.
+\newcommand*{\cvrole}[2]{%
+  \vspace{2mm}
+  {%
+    \setlength\tabcolsep{0pt}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+      \entrypositionstyle{#1} & \entrydatestyle{#2} \\
+    \end{tabular*}%
+  }%
+  % Offset the -4mm lead-in of the cvitems block that follows, so the bullets do
+  % not overlap this role line (inside \cventry the bullets sit in the same
+  % tabular, so this is only needed for the standalone \cvrole).
+  \par\vspace{4mm}%
+}

@@ -8,7 +8,7 @@
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
 % Specify the location of the included fonts
-\fontdir[fonts/]
+\fontdir[lib/fonts/]
 
 % Color for highlights
 % russell Colors: russell-emerald, russell-skyblue, russell-red, russell-pink, russell-orange
@@ -33,70 +33,41 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
-
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
+%	Set in a separate file — open content/personal-info.tex to edit it.
 %-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-% \photo[rectangle,edge,right]{./examples/profile}
-\name{Doe}{John}
-% \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{YOUR ADDRESS}
-
-\mobile{000000000000}
-\email{thisis@fakeemail.com}
-%\dateofbirth{January 1st, 1970}
-\homepage{themagicalmammal.vercel.app} 
-\github{themagicalmammal}
-\linkedin{themagicalmammal}
-% \gitlab{gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \medium{madium-id}
-% \kaggle{kaggle-id}
-% \googlescholar{googlescholar-id}{name-to-display}
-%% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
-% \extrainfo{extra information}
-
-% \quote{``Simplicity is deceptively complicated."}
-
+\input{content/personal-info.tex}
 
 %-------------------------------------------------------------------------------
- %	BIBLIOGRAPHY
- %-------------------------------------------------------------------------------
-\addbibresource{cv/references.bib}
+%	BIBLIOGRAPHY
+%-------------------------------------------------------------------------------
+\addbibresource{content/references.bib}
 
 %-------------------------------------------------------------------------------
 \begin{document}
 
+%-------------------------------------------------------------------------------
+% Header and footer
+%-------------------------------------------------------------------------------
 % Print the header with above personal informations
-% Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader
-
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
-\makecvfooter
-  {\today}
-  {}
-  {\thepage}
+\input{content/header.tex}
+% Print the footer (leave any of its 3 fields blank if not needed)
+\input{content/footer.tex}
 
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{cv/summary.tex}
-\input{cv/education.tex}
-\input{cv/experience.tex}
-\input{cv/projects.tex}
-\input{cv/skills.tex}
-\input{cv/achievements.tex}
-\input{cv/publications.tex}
-\input{cv/interests.tex}
-\input{cv/languages.tex}
+\input{content/summary.tex}
+\input{content/education.tex}
+\input{content/experience.tex}
+\input{content/projects.tex}
+\input{content/skills.tex}
+\input{content/achievements.tex}
+\input{content/publications.tex}
+\input{content/interests.tex}
+\input{content/languages.tex}
 
 \vspace*{\fill}
 \centering{\textbf{References available upon request.}}

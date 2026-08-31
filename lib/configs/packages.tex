@@ -1,0 +1,49 @@
+%-------------------------------------------------------------------------------
+%                3rd party packages
+%-------------------------------------------------------------------------------
+% make fixed length table
+\RequirePackage{array}
+% handle list environment
+\RequirePackage{enumitem}
+% handle text alignment
+\RequirePackage{ragged2e}
+% configure page layout
+\RequirePackage{geometry}
+% make header & footer effeciently
+\RequirePackage{fancyhdr}
+% manage colors
+\RequirePackage{xcolor}
+% use \ifxetex-\else-\fi statement
+\RequirePackage{ifxetex}
+% use \if-\then-\else statement
+\RequirePackage{xifthen}
+% string manipulation (e.g. stripping a URL scheme for display in \cvproject)
+\RequirePackage{xstring}
+% use a toolbox of programming tools
+\RequirePackage{etoolbox}
+% change line spacing in specific environment
+\RequirePackage{setspace}
+% manage fonts
+\RequirePackage[quiet]{fontspec}
+% To support LaTeX quoting style
+\defaultfontfeatures{Ligatures=TeX}
+% manage math fonts
+\RequirePackage{unicode-math}
+% use icons from font-awesome
+\RequirePackage{fontawesome5}
+\RequirePackage{roboto}
+\RequirePackage[default,opentype]{sourcesanspro}
+% Needed for the photo ID
+\RequirePackage[skins]{tcolorbox}
+% deal a paragraphs
+\RequirePackage{parskip}
+% deal hyperlink
+\RequirePackage[hidelinks,unicode,pdfpagelabels=false]{hyperref}
+\hypersetup{%
+  pdftitle={},
+  pdfauthor={},
+  pdfsubject={},
+  pdfkeywords={}
+}
+% Solves issues Warning: File `cv.out' has changed
+\RequirePackage{bookmark}

@@ -1,0 +1,11 @@
+%-------------------------------------------------------------------------------
+%	INTERESTS SECTION TEMPLATE
+%-------------------------------------------------------------------------------
+% Interests share the Skills layout (a right-aligned label and a left-aligned
+% description), so these are thin semantic aliases over the skills constructs:
+% the content reads as interests rather than repurposing \cvskill, while the
+% visual output stays identical. Requires templates/skills.tex to be loaded first.
+\newenvironment{cvinterests}{\cvskills}{\endcvskills}
+
+% \cvinterest{<interest>}{<description>}
+\newcommand*{\cvinterest}[2]{\cvskill{#1}{#2}}

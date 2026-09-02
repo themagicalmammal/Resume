@@ -1,0 +1,11 @@
+%-------------------------------------------------------------------------------
+%	LANGUAGES SECTION TEMPLATE
+%-------------------------------------------------------------------------------
+% Languages share the Skills layout (a right-aligned label and a left-aligned
+% value), so these are thin semantic aliases over the skills constructs: the
+% content reads as languages rather than repurposing \cvskill, while the visual
+% output stays identical. Requires templates/skills.tex to be loaded first.
+\newenvironment{cvlanguages}{\cvskills}{\endcvskills}
+
+% \cvlanguage{<language>}{<proficiency>}
+\newcommand*{\cvlanguage}[2]{\cvskill{#1}{#2}}
